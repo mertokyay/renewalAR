@@ -1,0 +1,35 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.151580502)
+
+newmtl 01_W_Exterior
+kd 0 0.211765 0.533333
+illum 1
+
+newmtl 01_W_Fibrex
+kd 1 0.4 0
+illum 1
+
+newmtl 01_W_Gray
+kd 0.192157 0.192157 0.192157
+illum 1
+
+newmtl 01_W_Hardware
+kd 0.917647 0 1
+illum 1
+
+newmtl 01_W_Interior
+kd 0.478431 0.168627 0
+illum 1
+
+newmtl 01_W_Sandtone
+kd 0.266667 0.0862745 0.729412
+illum 1
+
+newmtl 01_W_Spacer
+kd 0.25098 0.682353 0.984314
+illum 1
+
+newmtl 01_W_Glass
+kd 0.972549 0 0
+illum 1
+
