@@ -111,7 +111,7 @@
     {
       "bufferView": 13,
       "componentType": 5126,
-      "count": 120052,
+      "count": 37899,
       "max": [
         1.09383165836334,
         2.13360023498535,
@@ -127,13 +127,13 @@
     {
       "bufferView": 14,
       "componentType": 5126,
-      "count": 120052,
+      "count": 37899,
       "type": "VEC3"
     },
     {
       "bufferView": 15,
       "componentType": 5126,
-      "count": 120052,
+      "count": 37899,
       "type": "VEC2"
     },
     {
@@ -274,7 +274,7 @@
     }
   ],
   "asset": {
-    "generator": "Substance Painter 2019.2.0",
+    "generator": "Substance Painter 2019.2.1",
     "version": "2.0"
   },
   "bufferViews": [
@@ -357,122 +357,122 @@
     },
     {
       "buffer": 0,
-      "byteLength": 1440624,
+      "byteLength": 454788,
       "byteOffset": 1282284,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1440624,
-      "byteOffset": 2722908,
+      "byteLength": 454788,
+      "byteOffset": 1737072,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 960416,
-      "byteOffset": 4163532,
+      "byteLength": 303192,
+      "byteOffset": 2191860,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 45228,
-      "byteOffset": 5123948,
+      "byteOffset": 2495052,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 71760,
-      "byteOffset": 5169176,
+      "byteOffset": 2540280,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 71760,
-      "byteOffset": 5240936,
+      "byteOffset": 2612040,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 47840,
-      "byteOffset": 5312696,
+      "byteOffset": 2683800,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 31392,
-      "byteOffset": 5360536,
+      "byteOffset": 2731640,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 56256,
-      "byteOffset": 5391928,
+      "byteOffset": 2763032,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 56256,
-      "byteOffset": 5448184,
+      "byteOffset": 2819288,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 37504,
-      "byteOffset": 5504440,
+      "byteOffset": 2875544,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 2880,
-      "byteOffset": 5541944,
+      "byteOffset": 2913048,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 3840,
-      "byteOffset": 5544824,
+      "byteOffset": 2915928,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 3840,
-      "byteOffset": 5548664,
+      "byteOffset": 2919768,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 2560,
-      "byteOffset": 5552504,
+      "byteOffset": 2923608,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 192,
-      "byteOffset": 5555064,
+      "byteOffset": 2926168,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 384,
-      "byteOffset": 5555256,
+      "byteOffset": 2926360,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 384,
-      "byteOffset": 5555640,
+      "byteOffset": 2926744,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 256,
-      "byteOffset": 5556024,
+      "byteOffset": 2927128,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 5556280,
+      "byteLength": 2927384,
       "uri": "01_Window.bin"
     }
   ],
