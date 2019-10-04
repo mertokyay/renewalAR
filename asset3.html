@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 Copyright 2019 Renewal by Andersen LLC
@@ -28,38 +29,116 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
 <!--<script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>-->
     <link rel="stylesheet" href="demo-styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head> 
 <body>
+ 
+	<div class="jumbotron text-center">
   
-  <h2>
+		<h1>
     Product Technology Group
-  </h2>
+  </h1>
   <h3>
     USDZ & glTF Demo Site
   </h3>
-  
-  <model-viewer id="demo" src="webAssets/03/03_Specialty_Window_01.gltf"
+</div>
+  <div class="container">
+  <div class="alert alert-danger alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Warning!</strong> This is a development site. Products may or may not work correctly.
+  </div>
+	
+    <model-viewer id="demo" src="webAssets/03/03_Specialty_Window_01.gltf"
                 ios-src="webAssets/03/03_Specialty_Window_01.gltf"
                 ar
                 camera-controls
               >
 </model-viewer>
-  
-  <br>
-  <br>
-  <a href="index.html" class="btn btn-dark">Asset 1</a>
-  <a href="asset2.html" class="btn btn-dark">Asset 2</a>
-  <a href="asset3.html" class="btn btn-warning">Asset 3</a>
-  <br>
-  <br>
-  <a href="asset4.html" class="btn btn-dark">Asset 4</a>
-  <a href="asset5.html" class="btn btn-dark">Asset 5</a>
-  <a href="asset6.html" class="btn btn-dark">Asset 6</a>
-  <br>
-  <br>
 
+	  <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-warning font-weight-bold" data-toggle="modal" data-target="#myModal" >
+  Change Object
+</button>
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title" >Select the asset...</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+		  <div class="container" style="text-align: center">
+          
   
+   <a href="index.html" class="btn btn-dark">Asset 01</a>
+  <a href="asset2.html" class="btn btn-dark">Asset 02</a>
+  <a href="asset3.html" class="btn btn-warning">Asset 03</a>
+			   <br>
+	  <br>
+  <a href="asset4.html" class="btn btn-dark">Asset 04</a> 
+  <a href="asset5.html" class="btn btn-dark">Asset 05</a>
+  <a href="asset6.html" class="btn btn-dark">Asset 06</a>
+   <br>
+	  <br>
+  <a href="asset7.html" class="btn btn-dark">Asset 07</a>
+  <a href="asset8.html" class="btn btn-dark">Asset 08</a>
+  <a href="asset9.html" class="btn btn-dark">Asset 09</a>
+			    <br>
+	  <br>
+  <a href="asset10.html" class="btn btn-dark">Asset 10</a>
+  <a href="asset11.html" class="btn btn-dark">Asset 11</a>
+  <a href="asset12.html" class="btn btn-dark">Asset 12</a>
+			    <br>
+	  <br>
+  <a href="asset13.html" class="btn btn-dark">Asset 13</a>
+  <a href="asset14.html" class="btn btn-dark">Asset 14</a>
+  <a href="asset15.html" class="btn btn-dark">Asset 15</a>
+			    <br>
+	  <br>
+  <a href="asset16.html" class="btn btn-dark">Asset 16</a>
+  <a href="asset17.html" class="btn btn-dark">Asset 17</a>
+  <a href="asset18.html" class="btn btn-dark">Asset 18</a>
+			    <br>
+	  <br>
+  <a href="asset19.html" class="btn btn-dark">Asset 19</a>
+  <a href="asset20.html" class="btn btn-dark">Asset 20</a>
+  <a href="asset21.html" class="btn btn-dark">Asset 21</a>
+	  <br>
+	  <br>
+  <a href="asset22.html" class="btn btn-dark">Asset 22</a>
+  <a href="asset23.html" class="btn btn-dark">Asset 23</a>
+  <a href="asset24.html" class="btn btn-dark">Asset 24</a>
+	  
+  
+			  </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+	<br>
+	<div class="text-center"  >
+  <kbd >Please contact <a class="text-warning" href="mailto:mert.okyay@andersencorp.com">mert.okyay@andersencorp.com</a> for assitance.</kbd>
+</div>
+  
+	
   <!-- Loads <model-viewer> for modern browsers: -->
 <script type="module"
     src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
@@ -69,6 +148,5 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 <script nomodule
     src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
 </script>
-
 </body>
 </html>
