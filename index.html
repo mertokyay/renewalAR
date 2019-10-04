@@ -29,7 +29,10 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
 <!--<script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>-->
     <link rel="stylesheet" href="demo-styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head> 
 <body>
  
@@ -43,7 +46,8 @@ Files hosted on this website are property of Renewal by Andersen LLC.
   </h3>
 </div>
   <div class="container">
-   <div class="alert alert-danger">
+  <div class="alert alert-danger alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
     <strong>Warning!</strong> This is a development site. Products may or may not work correctly.
   </div>
 	
@@ -68,6 +72,9 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 	  <a href="asset7.html" class="btn btn-dark">Asset 7</a>
   <br>
   <br>
+</div>
+	<div class="text-center" >
+  <kbd>Please contact <a class="text-warning" href="mailto:mert.okyay@andersencorp.com">mert.okyay@andersencorp.com</a> for assitance.</kbd>
 </div>
   
   <!-- Loads <model-viewer> for modern browsers: -->
