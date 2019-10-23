@@ -550,18 +550,6 @@
       "uri": "01_W_Interior_emissive.png"
     },
     {
-      "uri": "01_W_Sandtone_baseColor.png"
-    },
-    {
-      "uri": "01_W_Sandtone_occlusionRoughnessMetallic.png"
-    },
-    {
-      "uri": "01_W_Sandtone_normal.png"
-    },
-    {
-      "uri": "01_W_Sandtone_emissive.png"
-    },
-    {
       "uri": "01_W_Spacer_baseColor.png"
     },
     {
@@ -572,6 +560,18 @@
     },
     {
       "uri": "01_W_Spacer_emissive.png"
+    },
+    {
+      "uri": "01_W_Terratone_baseColor.png"
+    },
+    {
+      "uri": "01_W_Terratone_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "01_W_Terratone_normal.png"
+    },
+    {
+      "uri": "01_W_Terratone_emissive.png"
     }
   ],
   "materials": [
@@ -741,7 +741,7 @@
       "emissiveTexture": {
         "index": 27
       },
-      "name": "01_W_Sandtone",
+      "name": "01_W_Spacer",
       "normalTexture": {
         "index": 26
       },
@@ -767,7 +767,7 @@
       "emissiveTexture": {
         "index": 31
       },
-      "name": "01_W_Spacer",
+      "name": "01_W_Terratone",
       "normalTexture": {
         "index": 30
       },
@@ -870,7 +870,7 @@
             "TEXCOORD_0": 23
           },
           "indices": 20,
-          "material": 6,
+          "material": 7,
           "mode": 4
         }
       ]
@@ -885,7 +885,7 @@
             "TEXCOORD_0": 27
           },
           "indices": 24,
-          "material": 7,
+          "material": 6,
           "mode": 4
         }
       ]

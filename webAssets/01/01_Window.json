@@ -41,10 +41,10 @@
         "01_W_Interior": {
             "shader": "Main shader"
         },
-        "01_W_Sandtone": {
+        "01_W_Spacer": {
             "shader": "Main shader"
         },
-        "01_W_Spacer": {
+        "01_W_Terratone": {
             "shader": "Main shader"
         }
     }
