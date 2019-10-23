@@ -145,7 +145,7 @@
     {
       "bufferView": 17,
       "componentType": 5126,
-      "count": 1596,
+      "count": 1936,
       "max": [
         1.29339492321014,
         -0.654281258583069,
@@ -161,13 +161,13 @@
     {
       "bufferView": 18,
       "componentType": 5126,
-      "count": 1596,
+      "count": 1936,
       "type": "VEC3"
     },
     {
       "bufferView": 19,
       "componentType": 5126,
-      "count": 1596,
+      "count": 1936,
       "type": "VEC2"
     }
   ],
@@ -279,26 +279,26 @@
     },
     {
       "buffer": 0,
-      "byteLength": 19152,
+      "byteLength": 23232,
       "byteOffset": 556448,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 19152,
-      "byteOffset": 575600,
+      "byteLength": 23232,
+      "byteOffset": 579680,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 12768,
-      "byteOffset": 594752,
+      "byteLength": 15488,
+      "byteOffset": 602912,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 607520,
+      "byteLength": 618400,
       "uri": "21_W_CasementTriple121.bin"
     }
   ],
