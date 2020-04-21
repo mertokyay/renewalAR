@@ -64,6 +64,8 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 <body>
  
 <button type="button" onclick="toggleText()">Hardware</button>
+	<button type="button" onclick="toggleText2()">Grilles</button>
+	<button type="button" onclick="toggleText3()">Color</button>
   <div class="container">
 	  
   <model-viewer src="webAssets/001/01_W_DG_V02.gltf"
@@ -76,6 +78,15 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 	  
 	  <button class="button" id="hotspot" slot="hotspot-1" data-position="-0.25 0.86 0.01" data-normal="-0.039 0.99 0.12"> 
 		  <div class ="annotation" id="annotation"> <a style="color: white" href="https://www.renewalbyandersen.com/windows-doors/options/window-hardware"> Antique Brass </a></div>
+  </button>
+	  
+	  <button class="button" id="hotspot2" slot="hotspot-2" data-position="0.128 1.085 -0.0025" data-normal="0 -4.335 0.99"> 
+		  <div class ="annotation" id="annotation2"> <a style="color: white" href="https://www.renewalbyandersen.com/windows-doors/options/window-hardware"> Colonial </a></div>
+  </button>
+	  
+	  
+	  <button class="button" id="hotspot3" slot="hotspot-3" data-position="0.402 0.4277 0.036" data-normal="0 -0.00016 0.99"> 
+		  <div class ="annotation" id="annotation3"> <a style="color: white" href="https://www.renewalbyandersen.com/windows-doors/options/window-hardware"> Black </a></div>
   </button>
 	 
 	  
@@ -98,6 +109,36 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 	hotspot.style.display="none";
   }
 }
+	
+	
+		function toggleText2() {
+  var hotspot = document.getElementById("hotspot2")
+  var text = document.getElementById("annotation2");
+  if (hotspot.style.display === "none") {
+    text.style.display = "block";
+	hotspot.style.display="block";
+  } else {
+    text.style.display = "none";
+	hotspot.style.display="none";
+  }
+}
+	
+		function toggleText3() {
+  var hotspot = document.getElementById("hotspot3")
+  var text = document.getElementById("annotation3");
+  if (hotspot.style.display === "none") {
+    text.style.display = "block";
+	hotspot.style.display="block";
+  } else {
+    text.style.display = "none";
+	hotspot.style.display="none";
+  }
+}
+	
+	
+	
+	
+	
 	</script>	
 	
 	
