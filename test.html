@@ -63,9 +63,9 @@ Files hosted on this website are property of Renewal by Andersen LLC.
   </head> 
 <body>
  
-<button type="button" onclick="toggleText()">Hardware</button>
-	<button type="button" onclick="toggleText2()">Grilles</button>
-	<button type="button" onclick="toggleText3()">Color</button>
+<button id="hardware" type="button" onclick="toggleText()">Hardware</button>
+	<button id="grille" type="button" onclick="toggleText2()">Grilles</button>
+	<button id="color" type="button" onclick="toggleText3()">Color</button>
   <div class="container">
 	  
   <model-viewer src="webAssets/001/01_W_DG_V02.gltf"
@@ -101,12 +101,15 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 	function toggleText() {
   var hotspot = document.getElementById("hotspot")
   var text = document.getElementById("annotation");
-  if (hotspot.style.display === "none") {
-    text.style.display = "block";
-	hotspot.style.display="block";
-  } else {
+  var button = document.getElementById("hardware")
+  if (hotspot.style.display === "block") {
     text.style.display = "none";
 	hotspot.style.display="none";
+	  button.style.color="black";
+  } else {
+    text.style.display = "block";
+	hotspot.style.display="block";
+	 button.style.color="red";
   }
 }
 	
@@ -114,24 +117,31 @@ Files hosted on this website are property of Renewal by Andersen LLC.
 		function toggleText2() {
   var hotspot = document.getElementById("hotspot2")
   var text = document.getElementById("annotation2");
-  if (hotspot.style.display === "none") {
-    text.style.display = "block";
-	hotspot.style.display="block";
-  } else {
+  var button = document.getElementById("grille")
+
+  if (hotspot.style.display === "block") {
     text.style.display = "none";
 	hotspot.style.display="none";
+	  button.style.color="black";
+  } else {
+    text.style.display = "block";
+	hotspot.style.display="block";
+	  button.style.color="red";
   }
 }
 	
 		function toggleText3() {
   var hotspot = document.getElementById("hotspot3")
   var text = document.getElementById("annotation3");
-  if (hotspot.style.display === "none") {
-    text.style.display = "block";
-	hotspot.style.display="block";
-  } else {
+  var button = document.getElementById("color")
+  if (hotspot.style.display === "block") {
     text.style.display = "none";
 	hotspot.style.display="none";
+	  button.style.color="black";
+  } else {
+    text.style.display = "block";
+	hotspot.style.display="block";
+	  button.style.color="red";
   }
 }
 	
