@@ -18,7 +18,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>&lt;model-viewer&gt; Interactive Example</title>
+  <title>&lt;model-viewer&gt; Editor</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no,
   minimum-scale=1.0, maximum-scale=1.0">
@@ -131,8 +131,8 @@
     <input type="file" id="input" multiple>
 
 
-    <label style="display:none;"id="src">
-    </label>
+    <label style="display:none;"id="src"> </label>
+    
     
     <label style="display: none;" id="environmentImage">
     </label>
@@ -168,8 +168,8 @@
 		<button onclick="addHotspot()">Add Hotspot</button><br/>
 		Then click on the model.<br/>
 		To remove a hotspot, select it, then click:<br/>
-		<button onclick="removeHotspot()">Remove Hotspot</button><br/>
-    
+		<button onclick="removeHotspot()">Remove Hotspot</button><br/> <br>
+    	<a href="index.html">Go Back To Homepage</a>
     </div> 
     <model-viewer id="loading-demo" autoplay camera-controls interaction-prompt="none" camera-orbit="0deg 90deg" 
       src="./webAssets/001/01_W_DG_V02.gltf" alt="A 3D model">
@@ -177,36 +177,7 @@
     </model-viewer>
   </div>
 
-  <div class="footer">
-    <ul>
-	  <li class="attribution">
-        <a href="https://poly.google.com/view/dLHpzNdygsg">Astronaut</a> by <a href="https://poly.google.com/user/4aEd8rQgKu2">Poly</a>,
-        licensed under <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a>.
-      </li>
 
-      <li class="attribution">
-        <a href="https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/DamagedHelmet">Damaged Helmet</a> by <a href="https://sketchfab.com/theblueturtle_">theblueturtle_</a>,
-        licensed under <a href="https://creativecommons.org/licenses/by-nc/3.0/us/">Creative Commons Attribution-NonCommercial</a>.
-	  </li>
-	  
-	  <li class="attribution">
-		<a href="https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/RobotExpressive">RobotExpressive</a> by <a href="https://www.patreon.com/quaternius">Tomás Laulhé</a>,
-		licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.
-	  </li>
-
-      <li class="attribution">
-        <a href="https://hdrihaven.com/hdri/?h=small_hangar_01">small_hangar_01_1k.jpg</a> by <a href="https://hdrihaven.com">HDRI Haven</a>,
-        licensed under <a href="https://hdrihaven.com/p/license.php">CC0</a>.
-      </li>
-
-      <li class="attribution">
-        <a href="https://hdrihaven.com/hdri/?h=whipple_creek_regional_park_04">whipple_creek_regional_park_04_1k.hdr</a> by <a href="https://hdrihaven.com">HDRI Haven</a>,
-        licensed under <a href="https://hdrihaven.com/p/license.php">CC0</a>.
-      </li>
-    </ul>
-    <div style="margin-top:24px;" class="copyright">©Copyright 2018 Google Inc. Licensed under the Apache License 2.0.</div>
-    <div><a href="https://github.com/GoogleWebComponents/model-viewer">Github</a> ∙ <a href="https://model-viewer.glitch.me/">Glitch</a> ∙ <a href="https://github.com/GoogleWebComponents/model-viewer/issues">Bug report</a></div>
-  </div>
 
   <script type="module" src="tester.js"></script>
   <script nomodule src="tester-umd.js"></script>
