@@ -35,6 +35,8 @@ body {
 model-viewer {
   width: 100%;
   height: 600px;
+--progress-bar-height: 10px;
+	--progress-bar-color: rgb(244, 122, 63)
 }
 
 .attribution {
