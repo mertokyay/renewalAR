@@ -3,69 +3,69 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 846,
+      "count": 407034,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 265,
+      "count": 114662,
       "max": [
-        1.30316829681396,
-        -0.298371553421021,
-        8.24212074279785
+        0.0978241488337517,
+        0.0662806257605553,
+        0.231602311134338
       ],
       "min": [
-        -3.69683361053467,
-        -1.05616283416748,
-        3.24211978912354
+        -0.113829210400581,
+        -0.0566772259771824,
+        -0.000340424478054047
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 265,
+      "count": 114662,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 265,
+      "count": 114662,
       "type": "VEC2"
     },
     {
       "bufferView": 4,
       "componentType": 5125,
-      "count": 407034,
+      "count": 846,
       "type": "SCALAR"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 114859,
+      "count": 265,
       "max": [
-        3.8339147567749,
-        2.60836958885193,
-        8.24212265014648
+        0.0366188175976276,
+        -0.00838419049978256,
+        0.231602266430855
       ],
       "min": [
-        -3.69827628135681,
-        -1.76737928390503,
-        -0.0121140480041504
+        -0.103880427777767,
+        -0.0296780057251453,
+        0.0911030322313309
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 114859,
+      "count": 265,
       "type": "VEC3"
     },
     {
       "bufferView": 7,
       "componentType": 5126,
-      "count": 114859,
+      "count": 265,
       "type": "VEC2"
     }
   ],
@@ -76,67 +76,70 @@
   "bufferViews": [
     {
       "buffer": 0,
+      "byteLength": 1628136,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1375944,
+      "byteOffset": 1628136,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1375944,
+      "byteOffset": 3004080,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 917296,
+      "byteOffset": 4380024,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
       "byteLength": 3384,
+      "byteOffset": 5297320,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 3180,
-      "byteOffset": 3384,
+      "byteOffset": 5300704,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 3180,
-      "byteOffset": 6564,
+      "byteOffset": 5303884,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 2120,
-      "byteOffset": 9744,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 1628136,
-      "byteOffset": 11864,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 1378308,
-      "byteOffset": 1640000,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 1378308,
-      "byteOffset": 3018308,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 918872,
-      "byteOffset": 4396616,
+      "byteOffset": 5307064,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 5315488,
+      "byteLength": 5309184,
       "uri": "DG_Corner_Sandtone_M.bin"
     }
   ],
   "images": [
     {
-      "uri": "DG_Corner_M_baseColor.png"
+      "uri": "DG_Corner_baseColor.png"
     },
     {
-      "uri": "DG_Corner_M_occlusionRoughnessMetallic.png"
+      "uri": "DG_Corner_occlusionRoughnessMetallic.png"
     },
     {
-      "uri": "DG_Corner_M_normal.png"
+      "uri": "DG_Corner_normal.png"
+    },
+    {
+      "uri": "DG_Corner_emissive.png"
     },
     {
       "uri": "Glass_baseColor.png"
@@ -154,7 +157,15 @@
   "materials": [
     {
       "alphaMode": "BLEND",
-      "name": "DG_Corner_M",
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "name": "DG_Corner",
       "normalTexture": {
         "index": 2
       },
@@ -178,28 +189,28 @@
         1.0
       ],
       "emissiveTexture": {
-        "index": 6
+        "index": 7
       },
       "name": "Glass",
       "normalTexture": {
-        "index": 5
+        "index": 6
       },
       "occlusionTexture": {
-        "index": 4
+        "index": 5
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 3
+          "index": 4
         },
         "metallicRoughnessTexture": {
-          "index": 4
+          "index": 5
         }
       }
     }
   ],
   "meshes": [
     {
-      "name": "Glass",
+      "name": "Corner",
       "primitives": [
         {
           "attributes": {
@@ -208,13 +219,13 @@
             "TEXCOORD_0": 3
           },
           "indices": 0,
-          "material": 1,
+          "material": 0,
           "mode": 4
         }
       ]
     },
     {
-      "name": "Corner",
+      "name": "Glass",
       "primitives": [
         {
           "attributes": {
@@ -223,7 +234,7 @@
             "TEXCOORD_0": 7
           },
           "indices": 4,
-          "material": 0,
+          "material": 1,
           "mode": 4
         }
       ]
@@ -241,33 +252,43 @@
       "children": [
         2
       ],
-      "name": "Glass",
-      "rotation": [
-        -0.70710676908493,
-        0.0,
-        0.0,
-        0.70710676908493
-      ]
-    },
-    {
-      "mesh": 0,
-      "name": "Glass"
-    },
-    {
-      "children": [
-        4
-      ],
       "name": "Corner",
       "rotation": [
         -0.70710676908493,
         0.0,
         0.0,
         0.70710676908493
+      ],
+      "translation": [
+        0.0,
+        0.000344677740940824,
+        0.0
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Corner"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Glass",
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "translation": [
+        -0.00990824308246374,
+        0.000344677740940824,
+        0.00701415026560426
       ]
     },
     {
       "mesh": 1,
-      "name": "Corner"
+      "name": "Glass"
     }
   ],
   "samplers": [
@@ -315,6 +336,10 @@
     {
       "sampler": 0,
       "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
     }
   ]
 }
